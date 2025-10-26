@@ -792,6 +792,10 @@ dotnet_diagnostic.SYSLIB1061.severity = error
 # SYSLIB1062: The project must be updated with <AllowUnsafeBlocks>true</AllowUnsafeBlocks>.
 dotnet_diagnostic.SYSLIB1062.severity = error
 
+## IDE rules
+# IDE0073: Require file header
+dotnet_diagnostic.IDE0073.severity = none
+
 #### Resharper settings ####
 # see https://www.jetbrains.com/help/fleet/code-inspection-list-csharp.html
 # only specifying the rules that are different from the default settings
@@ -905,3 +909,5 @@ resharper_redundant_if_else_block_highlighting = warning
 resharper_member_can_be_private_global_highlighting = none
 # Underlying type of enum is 'int'
 resharper_enum_underlying_type_is_int_highlighting = hint
+# Redundant lambda expression parameter type specification
+resharper_redundant_lambda_parameter_type_highlighting = hint
