@@ -1,6 +1,13 @@
 # Remove the line below if you want to inherit .editorconfig settings from higher directories
 root = true
 
+# All files
+[*]
+charset = utf-8
+indent_style = space
+trim_trailing_whitespace = true
+end_of_line = lf
+
 # C# files
 [*.cs]
 
@@ -132,11 +139,9 @@ csharp_prefer_static_anonymous_function = true:suggestion
 
 # Indentation and spacing
 indent_size = 4
-indent_style = space
 tab_width = 4
 
 # New line preferences
-end_of_line = crlf
 insert_final_newline = false
 
 #### .NET Coding Conventions ####
